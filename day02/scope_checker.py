@@ -8,7 +8,7 @@ if target_ip == scope_ip:
 else:
     print("OUT OF SCOPE - do NOT test this target")
 
-port =int (input("what is your port? "))
+port = int (input("what is your port? "))
 
 if port == 21:
     print("FTP - file transfer")
